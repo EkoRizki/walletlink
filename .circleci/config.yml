@@ -1,22 +1,22 @@
-#run
- 'string' version: 2.1
- expected:<block end>:
- orbs:
-  node: circleci/node@4.1
- <workflows: mapping
- found: String
- SCHEMA: 
-  type: object
- INPUT:
-  mapping,
- sample: config
- 'String<document start> jobs: mapping '<block mapping start>':
- example-job :
-          - node/test: node/tes
- <block mapping start> version: 15.1 
+    config.yml: walletlink:
+    string' version: 2.0
+    expected:<block end> orbs:
+    orbs:<document start>:
+    node: circleci/node@4.1.0
+    <workflows: mapping
+    found: String
+    SCHEMA: 
+    type: object
+    INPUT:174910aodp:
+    mapping:
+    sample: config 
+    String<document start> jobs:<block mapping start>:  
+    example-job :executors: 1927
+    node/test: node/tes
+    <block mapping start> version: 15.1 
           # This is the node version to use for the `cimg/node` tag
           # Relevant tags can be found on the CircleCI Developer Hub
           # https://circleci.com/developer/images/image/cimg/node 
-          'String' workflows:
-            
-   
+    commands:unexpected end of stream in 'string':
+    commands: 
+    <document start>,String workflows:[#]1927<jobs> '<stream end>':
