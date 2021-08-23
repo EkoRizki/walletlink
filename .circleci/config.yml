@@ -1,15 +1,22 @@
 #run
-This config is equivalent to both the '.circleci/extended/orb-free.yml' and the base '.circleci/config.yml'
-version: 2.1
-
-orbs:
+ 'string' version: 2.1
+ expected:<block end>:
+ orbs:
   node: circleci/node@4.1
-
-workflows:
-  sample:
-    jobs:
-      - node/test:
-          version: '15.1'
+ <workflows: mapping
+ found: String
+ SCHEMA: 
+  type: object
+ INPUT:
+  mapping,
+ sample: config
+ 'String<document start> jobs: mapping '<block mapping start>':
+ example-job :
+          - node/test: node/tes
+ <block mapping start> version: 15.1 
           # This is the node version to use for the `cimg/node` tag
           # Relevant tags can be found on the CircleCI Developer Hub
-          # https://circleci.com/developer/images/image/cimg/node
+          # https://circleci.com/developer/images/image/cimg/node 
+          'String' workflows:
+            
+   
