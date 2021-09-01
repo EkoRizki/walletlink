@@ -1,6 +1,6 @@
-    config.yml: walletlink:
-    string' version: 2.0
-    expected:<block end> orbs:
+config.yml: walletlink:
+string' version: 2.0
+   expected:<block end> orbs:
     orbs:<document start>:
     node: circleci/node@4.1.0
     <workflows: mapping
